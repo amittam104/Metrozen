@@ -4,35 +4,64 @@
 }
 
 body {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1200px;
+  font-family: "Lato", sans-serif;
+  color: #212529;
 }
 
 /* Navigation Section */
 .navigation-section {
   padding: 30px 0;
   background-color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 144px;
 }
 
 /* Header Section */
 .header-section {
   display: flex;
-  gap: 50px;
-  margin-bottom: 30px;
+  gap: 56px;
+  margin-bottom: 160px;
+  max-width: 1100px;
+  min-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-information {
+  width: auto;
+}
+
+.header-text {
+  font-size: 16px;
+  margin-bottom: 40px;
 }
 
 .booking-action {
-  display: flex;
+  display: inline-flex;
+  gap: 20px;
   flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.book-now {
+  padding: 15px;
+  background-color: #1864ab;
 }
 
 .header-image {
-  width: 500px;
+  width: 600px;
   height: auto;
+  border-radius: 12px;
 }
 
+h1 {
+  font-size: 54px;
+  letter-spacing: -0.5px;
+  line-height: 1;
+  font-weight: 900;
+  margin-bottom: 32px;
+}
+
+/* Media Section */
 .media-section {
   background-color: antiquewhite;
   height: 200px;
