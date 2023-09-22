@@ -206,6 +206,22 @@ h1 {
 
 /* Media Section */
 .media-section {
-  background-color: antiquewhite;
+  background-color: #fff5f5;
   height: 200px;
+  margin-bottom: 144px;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-around; */
+}
+
+.media-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.media-logo {
+  width: 300px;
+  height: auto;
 }
