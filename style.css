@@ -12,8 +12,100 @@ body {
 .navigation-section {
   padding: 30px 0;
   background-color: #fff;
-  margin-bottom: 144px;
-  /* box-shadow: 0px 1px 30px #000; */
+  margin-bottom: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 28px;
+  box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.05);
+}
+
+.website-navigation {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.landing-page:link,
+.landing-page:visited {
+  color: #226c30;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: -0.3px;
+  text-decoration: none;
+}
+
+.landing-page:hover,
+.landing-page:active {
+  color: #226c30;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: -0.3px;
+  text-decoration: none;
+}
+
+.nav1:link,
+.nav1:visited {
+  font-size: 14px;
+  text-decoration: none;
+  color: #212529;
+}
+
+.nav1:hover,
+.nav1:active {
+  font-size: 14px;
+  text-decoration: underline;
+  color: #212529;
+}
+
+.contact-navigation {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.contact-number:link,
+.contact-number:visited {
+  font-size: 14px;
+  text-decoration: none;
+  color: #212529;
+}
+
+.contact-number:hover,
+.contact-number:active {
+  font-size: 14px;
+  text-decoration: underline;
+  color: #212529;
+}
+
+.book-now-header:link,
+.book-now-header:visited {
+  font-size: 12px;
+  text-decoration: none;
+  padding: 8px 12px;
+  background-color: #2b8a3e;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 1.1px;
+  border-radius: 500px;
+}
+
+.book-now-header:hover,
+.book-now-header:active {
+  font-size: 12px;
+  text-decoration: none;
+  padding: 8px 12px;
+  background-color: #226c30;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 1.1px;
+  border-radius: 500px;
 }
 
 /* Header Section */
@@ -48,8 +140,12 @@ body {
   padding: 16px 24px;
   background-color: #2b8a3e;
   color: white;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
   text-decoration: none;
   text-align: center;
+  letter-spacing: 1.2px;
   border-radius: 500px;
 }
 
@@ -58,7 +154,7 @@ body {
   padding: 16px 24px;
   background-color: #226c30;
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
   text-align: center;
   border-radius: 500px;
 }
@@ -78,7 +174,7 @@ body {
   padding: 16px 24px;
   background-color: #8ce99a;
   color: #226c30;
-  text-decoration: none;
+  text-decoration: underline;
   text-align: center;
   border-radius: 500px;
 }
