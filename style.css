@@ -258,12 +258,12 @@ h1 {
   display: flex;
   height: 290px;
   width: auto;
-  justify-content: space-between;
+  justify-content: center;
   /* max-width: 1520px; */
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 144px;
-  gap: 5px;
+  gap: 3px;
 }
 
 /* Around us section */
@@ -311,4 +311,52 @@ ul {
   margin-left: 16px;
   line-height: 2;
   font-size: 14px;
+}
+
+/* Gallery Section */
+.gallery-section {
+  margin-bottom: 144px;
+}
+
+.gallery-images {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  overflow-x: hidden;
+  justify-content: flex-end;
+  gap: 3px;
+}
+
+/* .gallery-images img {
+  border-radius: 5px;
+} */
+
+.gallery-info-box {
+  background-color: #e9ecef;
+  display: inline-block;
+  padding: 20px 100px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.pricing-header {
+  margin-bottom: 16px;
+  color: #226c30;
+  font-size: 21px;
+  font-weight: 900;
+}
+
+.pricing {
+  margin-bottom: 12px;
+  font-size: 18.5px;
+}
+
+.gallery-row {
+  position: relative;
+}
+.gallery-info-box {
+  position: absolute;
+  bottom: 12%;
+  left: 40%;
 }
