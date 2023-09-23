@@ -206,22 +206,58 @@ h1 {
 
 /* Media Section */
 .media-section {
-  background-color: #fff5f5;
+  background-color: rgba(235, 251, 238, 0.5);
   height: 200px;
-  margin-bottom: 144px;
-  /* display: flex;
+  /* margin-bottom: 144px; */
+  display: flex;
   align-items: center;
-  justify-content: space-around; */
+  justify-content: space-around;
 }
 
 .media-bar {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 50px;
+  gap: 150px;
 }
 
 .media-logo {
   width: 300px;
   height: auto;
+}
+
+.hindustan-times {
+  padding-bottom: 10px;
+}
+
+.indian-express {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.hindustan-times {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.times-of-india {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Slider / Gallery section */
+
+.slider-section {
+  display: flex;
+  height: 293px;
+  width: auto;
+  max-width: 1520px;
+  margin-bottom: 144px;
+  gap: 5px;
 }
