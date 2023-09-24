@@ -573,3 +573,24 @@ ul {
 .explore-neighborhood {
   width: 400px;
 }
+
+/* Footer Section */
+
+/* Footer Navigation */
+.footer-navigation {
+  display: flex;
+}
+
+.footer-pages-navigation {
+  display: flex;
+}
+
+.Pune {
+  display: flex;
+  flex-direction: column;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+}
