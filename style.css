@@ -542,3 +542,34 @@ ul {
   width: 500px;
   border-radius: 12px;
 }
+
+/* call-to-action-section */
+
+.call-to-action-section {
+  margin-bottom: 144px;
+}
+
+.action-image {
+  width: 100%;
+  position: relative;
+}
+
+.call-to-action-box {
+  display: flex;
+  flex-direction: column;
+  /* min-width: 300px; */
+  max-width: 400px;
+  align-items: center;
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 40px 130px;
+  border-radius: 12px;
+  position: absolute;
+  top: 112px;
+  left: 507px;
+}
+
+.book-now,
+.explore-neighborhood {
+  width: 400px;
+}
