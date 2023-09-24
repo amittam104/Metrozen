@@ -469,7 +469,8 @@ ul {
 
 .features-button:link,
 .features-button:visited {
-  padding: 10px 150px;
+  font-size: 14px;
+  padding: 8px 215px;
   background-color: #fff;
   color: #212529;
   border: 1px solid #343a40;
@@ -477,12 +478,13 @@ ul {
   text-align: center;
   border-radius: 500px;
   display: inline-block;
-  margin-bottom: 24px;
+  margin-bottom: 36px;
 }
 
 .features-button:hover,
 .features-button:active {
-  padding: 10px 150px;
+  font-size: 14px;
+  padding: 8px 215px;
   background-color: #e9ecef;
   color: #212529;
   border: 1px solid #343a40;
@@ -490,23 +492,52 @@ ul {
   text-align: center;
   border-radius: 500px;
   display: inline-block;
-  margin-bottom: 24px;
+  margin-bottom: 36px;
+}
+
+.title-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 36px;
+  /* width: 100%; */
 }
 
 .features-title {
-  margin-bottom: 24px;
+  font-size: 14px;
+  /* margin-bottom: 36px; */
   align-self: center;
+}
+
+.horizontal-line {
+  width: 215px;
+  height: 0.8px;
+  background: #adb5bd;
 }
 
 .features-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  row-gap: 24px;
-  column-gap: 60px;
+  row-gap: 36px;
+  column-gap: 48px;
+  font-size: 12px;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+}
+
+.feature-grid-item p {
+  line-height: 1.4;
+}
+
+.feature-icon {
+  fill: #1971c2;
+  margin-bottom: 8px;
+  width: 36px;
 }
 
 .features-image {
-  width: 600px;
+  width: 500px;
   border-radius: 12px;
 }
