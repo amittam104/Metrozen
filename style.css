@@ -591,7 +591,17 @@ ul {
   width: 472px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 8px;
+}
+
+.footer-social-media {
+  display: flex;
+  gap: 4px;
+}
+
+.social-icon {
+  width: 28px;
+  fill: #343a40;
 }
 
 .contact-number:link,
@@ -610,6 +620,10 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+.office-hours h4 {
+  font-size: 14px;
 }
 
 .footer-pages-navigation {
