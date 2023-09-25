@@ -579,18 +579,84 @@ ul {
 /* Footer Navigation */
 .footer-navigation {
   display: flex;
+  width: 1400px;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 96px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-social-navigation {
+  width: 472px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-number:link,
+.contact-number:visited {
+  font-size: 12px;
+}
+
+.contact-number:link,
+.contact-number:visited {
+  font-size: 12px;
+}
+
+.office-hours {
+  width: auto;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .footer-pages-navigation {
   display: flex;
+  gap: 96px;
+  width: auto;
+  padding-left: 400px;
 }
 
 .Pune {
   display: flex;
   flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.pune-nav:link,
+.pune-nav:visited {
+  text-decoration: none;
+  color: #212529;
+  font-size: 12px;
+}
+
+.pune-nav:hover,
+.pune-nav:active {
+  text-decoration: underline;
+  color: #212529;
+  font-size: 12px;
 }
 
 .company {
   display: flex;
   flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.company-nav:link,
+.company-nav:visited {
+  text-decoration: none;
+  color: #212529;
+  font-size: 12px;
+}
+
+.company-nav:hover,
+.company-nav:active {
+  text-decoration: underline;
+  color: #212529;
+  font-size: 12px;
 }
