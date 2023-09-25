@@ -582,7 +582,7 @@ ul {
   width: 1400px;
   align-items: flex-start;
   justify-content: space-between;
-  margin-bottom: 96px;
+  margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -673,4 +673,37 @@ ul {
   text-decoration: underline;
   color: #212529;
   font-size: 12px;
+}
+
+/* Footer line */
+.footer-line {
+  height: 0.5px;
+  background-color: #dee2e6;
+  width: 1400px;
+  margin-bottom: 28px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Footer copyright */
+.footer-copyright {
+  display: flex;
+  font-size: 12px;
+  margin-left: 60px;
+  margin-right: auto;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: #343a40;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  text-decoration: underline;
+  color: #343a40;
 }
