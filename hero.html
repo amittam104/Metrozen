@@ -21,6 +21,11 @@
         box-sizing: border-box;
       }
 
+      html {
+        font-family: "Lato", sans-serif;
+        color: #444;
+      }
+
       .container {
         width: 1200px;
         margin: 0 auto;
@@ -30,11 +35,33 @@
         font-size: 20px;
         display: flex;
         justify-content: space-between;
-        margin-bottom: 48px;
+        padding-top: 32px;
       }
 
       header {
         height: 100vh;
+        position: relative;
+        margin-bottom: 96px;
+
+        background-image: linear-gradient(
+            rgba(30, 30, 30, 0.5),
+            rgba(30, 30, 30, 0.5)
+          ),
+          url(images/hero-image.jpg);
+        background-size: cover;
+        color: #fff;
+      }
+
+      .header-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 1200px;
+      }
+
+      .header-container-inner {
+        width: 50%;
       }
 
       h1 {
@@ -66,21 +93,29 @@
         color: #fff;
         border-radius: 8px;
       }
+
+      .home-link:link,
+      .home-link:visited {
+        color: #fff;
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
     <header>
       <nav class="container">
-        <div>Metrozen</div>
+        <a href="index.html" class="home-link">Metrozen</a>
         <div>Contact Us</div>
       </nav>
-      <div class="container">
-        <h1>Your One stop solution to find Home</h1>
-        <p>
-          Metrozen will help you find the dream home in the heart of the city
-          with the peace you want with it.
-        </p>
-        <a href="#" class="btn2">Book Now</a>
+      <div class="header-container">
+        <div class="header-container-inner">
+          <h1>Your One stop solution to find your Home</h1>
+          <p>
+            Metrozen will help you find the dream home in the heart of the city
+            with the peace you want with it.
+          </p>
+          <a href="#" class="btn2">Book Now</a>
+        </div>
       </div>
     </header>
     <section>
